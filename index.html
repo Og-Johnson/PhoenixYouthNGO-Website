@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phoenix Youth Empowerment Center</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Firebase App (required) -->
+<script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
+
+<!-- Firestore Database -->
+<script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-firestore-compat.js"></script>
+
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <div class="container header-container">
+           
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#impact">Impact</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+   <section id="hero">
+    <!-- Background image -->
+    <div class="hero-overlay"></div>
+
+    <div class="hero-container">
+        <div class="hero-content">
+            <img src="image/logo.png" alt="Phoenix Youth Empowerment Center Logo" class="hero-logo">
+
+            <h1>Phoenix Youth Empowerment Center</h1>
+
+            <p>
+                Empowering young people to overcome addiction, rediscover purpose,
+                and build meaningful, drug-free lives.
+            </p>
+
+            <a href="#programs" class="btn">Get Involved</a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- About Section -->
+    <section id="about">
+    <div class="container">
+        <h2>About Phoenix Youth Empowerment Center</h2>
+
+        <div class="about-cards">
+            <div class="about-card">
+                <h3>Our Vision</h3>
+                <p>
+                    To create a world where young people have the strength, support, and resources to overcome
+                    addiction, transforming their lives and communities toward a brighter, drug-free future —
+                    with a target of reaching 5 million youth globally.
+                </p>
+            </div>
+
+            <div class="about-card">
+                <h3>Our Mission</h3>
+                <p>
+                    Phoenix Youth Empowerment Center is dedicated to helping young people overcome drug abuse
+                    and addiction through psycho-education, real-life experiences of the founder, rehabilitation,
+                    and strong community support. We provide guidance, mentorship, and opportunities for
+                    personal growth and long-term recovery.
+                </p>
+            </div>
+
+            <div class="about-card">
+                <h3>Our Goal</h3>
+                <p>
+                    To reduce youth drug abuse by 30% in our target communities within the next five years by
+                    delivering impactful prevention programs, accessible rehabilitation services, and
+                    transformative youth development initiatives — walking with young people as they heal,
+                    rediscover their worth, and build purpose-driven, substance-free lives.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="founder">
+    <div class="container founder-wrapper">
+        
+        <div class="founder-image">
+            <img src="image/fou.jpeg" alt="Founder of Phoenix Youth Empowerment Center">
+        </div>
+
+        <div class="founder-content">
+            <h2>Meet the Founder</h2>
+            <h3>Founder, Phoenix Youth Empowerment Center</h3>
+            <p>
+              Chukwuemeka KinG Okoro, Founder of Phoenix Youth Empowerment Center, once battled addiction 
+              himself and knows the darkness it brings. Through courage, determination, and faith,
+               he turned his life around and now dedicates himself to lifting young people out of the same struggles.
+            </p>
+            <p>
+               With every program, mentorship session, and community initiative, he inspires hope, rebuilds lives,
+                and shows that recovery is possible. His mission is to guide youths toward healing, purpose, and a brighter, 
+                drug-free future, proving that even the deepest struggles can become a powerful story of transformation.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- Programs / Services Section -->
+    <section id="programs">
+        <div class="container">
+            <h2>Our Programs</h2>
+            <div class="program-cards">
+                <div class="card">
+                    <img src="image/reach.jpeg" alt="Prevention Program">
+                    <h3>Community Outreach</h3>
+                    <p>Educating youth on the dangers of drugs and equipping them with life skills to make healthy choices.</p>
+                </div>
+                <div class="card">
+                    <img src="image/indiv1.jpeg" alt="Individual Session with youth">
+                    <h3>Individual Session with Youth</h3>
+                    <p>Mentorship, skills training, and community engagement to empower youth for a substance-free life.</p>
+                </div>
+                <div class="card">
+                    <img src="image/awa.jpeg" alt="Youth Development">
+                    <h3>Creating Awareness</h3>
+                    <p>A Social Worker raising awareness among youths about the dangers of drug and substance use.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section / Gallery -->
+    <section id="impact">
+        <div class="container">
+            <h2> Gallery </h2>
+            <p>See how we are changing lives and communities through our programs.</p>
+            <div class="gallery-grid">
+                <img src="image/Asso.jpeg" alt="Associates">
+                <img src="image/comm2.jpeg" alt="Community Engagement">
+                <img src="image/team.jpeg" alt="Team">
+                <!-- Add more photos -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:PhoenixYouthMission@gmail.com">PhoenixYouthMission@gmail.com</a></p>
+            <p>Phone: <a href="tel:08033573305">08033573305</a></p>
+            <p>Twitter: <a href="https://twitter.com/Phoenix_Mission" target="_blank">@Phoenix_Mission</a></p>
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" name="name" required>
+                <input type="email" placeholder="Your Email" name="email" required>
+                <textarea placeholder="Your Message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Phoenix Youth Empowerment Center | RC: 8262091</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="firebase.js"></script>
+</body>
+</html>
+
+
